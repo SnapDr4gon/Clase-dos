@@ -1,6 +1,10 @@
-let numberOne = 1;
-let numberTwo = 3;
+const myObj = {
+    list: ["hola"]
+};
 
-const PLUS = numberOne + numberTwo;
+console.log(myObj);
 
-console.log(PLUS);
+myObj.siu = "mama";
+delete myObj["list"];
+
+console.log(myObj);
